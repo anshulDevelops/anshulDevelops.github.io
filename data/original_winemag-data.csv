@@ -1,0 +1,189 @@
+country,points,price,province,variety,countryCode,VarietyCode
+Mexico,91,108,Valle de Guadalupe,Red Blend,3,4
+Spain,94,100,Central Spain,Red Blend,4,4
+Spain,92,100,Central Spain,Red Blend,4,4
+Spain,92,100,Central Spain,Red Blend,4,4
+Spain,94,100,Central Spain,Red Blend,4,4
+England,93,80,England,Pinot Noir,1,3
+England,94,80,England,Chardonnay,1,1
+England,93,80,England,Chardonnay,1,1
+US,89,75,America,Red Blend,5,4
+Spain,92,75,Central Spain,Red Blend,4,4
+England,95,70,England,Chardonnay,1,1
+Spain,88,70,Central Spain,Red Blend,4,4
+Spain,88,70,Central Spain,Red Blend,4,4
+Spain,87,59,Central Spain,Red Blend,4,4
+Spain,88,59,Central Spain,Red Blend,4,4
+Mexico,87,58,Valle de Guadalupe,Red Blend,3,4
+Mexico,90,56,Valle de Guadalupe,Red Blend,3,4
+England,94,56,England,Chardonnay,1,1
+Mexico,90,56,Valle de Guadalupe,Red Blend,3,4
+Mexico,92,54,Valle de Guadalupe,Red Blend,3,4
+Spain,88,53,Central Spain,Red Blend,4,4
+Spain,92,53,Central Spain,Red Blend,4,4
+England,91,52,England,Chardonnay,1,1
+Spain,90,52,Central Spain,Red Blend,4,4
+England,91,52,England,Chardonnay,1,1
+England,90,51,England,Pinot Noir,1,3
+England,92,50,England,Pinot Noir,1,3
+England,92,50,England,Chardonnay,1,1
+England,91,50,England,Chardonnay,1,1
+England,92,50,England,Pinot Noir,1,3
+England,91,50,England,Chardonnay,1,1
+US,90,50,America,Red Blend,5,4
+England,92,50,England,Chardonnay,1,1
+England,93,50,England,Pinot Noir,1,3
+England,94,50,England,Chardonnay,1,1
+Mexico,87,49,Valle de Guadalupe,Red Blend,3,4
+England,94,49,England,Chardonnay,1,1
+US,94,48,America,Pinot Noir,5,3
+England,90,46,England,Chardonnay,1,1
+England,90,46,England,Chardonnay,1,1
+US,84,45,America,Pinot Noir,5,3
+US,90,45,America,Red Blend,5,4
+England,94,45,England,Chardonnay,1,1
+England,93,43,England,Pinot Noir,1,3
+Spain,88,40,Central Spain,Red Blend,4,4
+England,89,39,England,Chardonnay,1,1
+Mexico,88,39,Valle de Guadalupe,Red Blend,3,4
+Spain,85,38,Central Spain,Red Blend,4,4
+Spain,85,36,Central Spain,Red Blend,4,4
+Spain,90,35,Central Spain,Red Blend,4,4
+US,84,35,America,Merlot,5,2
+Spain,93,34,Central Spain,Red Blend,4,4
+Mexico,87,33,Valle de Guadalupe,Red Blend,3,4
+Spain,89,33,Central Spain,Red Blend,4,4
+Spain,90,32,Central Spain,Red Blend,4,4
+Spain,87,32,Central Spain,Red Blend,4,4
+Spain,89,32,Central Spain,Red Blend,4,4
+Mexico,89,31,Valle de Guadalupe,Red Blend,3,4
+Spain,90,30,Central Spain,Red Blend,4,4
+Mexico,82,30,Valle de Guadalupe,Merlot,3,2
+Spain,82,30,Central Spain,Red Blend,4,4
+Mexico,88,30,Valle de Guadalupe,Red Blend,3,4
+Spain,90,30,Central Spain,Red Blend,4,4
+Spain,92,30,Central Spain,Red Blend,4,4
+Spain,86,30,Central Spain,Red Blend,4,4
+Spain,91,30,Central Spain,Red Blend,4,4
+Spain,92,30,Central Spain,Red Blend,4,4
+US,86,28,America,Chardonnay,5,1
+Mexico,87,28,Valle de Guadalupe,Sauvignon Blanc,3,5
+Spain,92,27,Central Spain,Red Blend,4,4
+Mexico,84,27,Valle de Guadalupe,Red Blend,3,4
+Spain,92,27,Central Spain,Red Blend,4,4
+England,90,27,England,Pinot Noir,1,3
+Spain,88,27,Central Spain,Red Blend,4,4
+Spain,88,27,Central Spain,Red Blend,4,4
+Spain,85,27,Central Spain,Red Blend,4,4
+Mexico,85,26,Valle de Guadalupe,Chardonnay,3,1
+US,85,25,America,Merlot,5,2
+US,85,25,America,Merlot,5,2
+Spain,88,25,Central Spain,Red Blend,4,4
+Spain,89,25,Central Spain,Red Blend,4,4
+Spain,81,25,Central Spain,Red Blend,4,4
+Spain,88,24,Central Spain,Red Blend,4,4
+Spain,84,24,Central Spain,Red Blend,4,4
+Spain,90,23,Central Spain,Red Blend,4,4
+US,87,23,America,Red Blend,5,4
+US,84,23,America,Red Blend,5,4
+Spain,89,22,Central Spain,Red Blend,4,4
+Mexico,83,22,Valle de Guadalupe,Red Blend,3,4
+Mexico,88,22,Valle de Guadalupe,Chardonnay,3,1
+Spain,86,22,Central Spain,Red Blend,4,4
+Mexico,88,22,Valle de Guadalupe,Red Blend,3,4
+Mexico,83,21,Valle de Guadalupe,Chardonnay,3,1
+Mexico,82,21,Valle de Guadalupe,Chardonnay,3,1
+US,83,20,America,Sauvignon Blanc,5,5
+US,82,20,America,Chardonnay,5,1
+Spain,88,20,Central Spain,Red Blend,4,4
+Spain,88,20,Central Spain,Red Blend,4,4
+Spain,80,20,Central Spain,Red Blend,4,4
+Spain,88,20,Central Spain,Red Blend,4,4
+US,85,19,America,Red Blend,5,4
+Spain,88,19,Central Spain,Red Blend,4,4
+US,85,18,America,Chardonnay,5,1
+Spain,83,18,Central Spain,Red Blend,4,4
+US,89,18,America,Red Blend,5,4
+US,82,18,America,Sauvignon Blanc,5,5
+Spain,83,18,Central Spain,Red Blend,4,4
+US,85,17,America,Chardonnay,5,1
+Spain,88,17,Central Spain,Red Blend,4,4
+Spain,83,17,Central Spain,Red Blend,4,4
+US,85,16,America,Chardonnay,5,1
+Spain,87,16,Central Spain,Red Blend,4,4
+Spain,89,16,Central Spain,Red Blend,4,4
+Mexico,87,15,Valle de Guadalupe,Sauvignon Blanc,3,5
+US,90,15,America,Red Blend,5,4
+Mexico,84,15,Valle de Guadalupe,Sauvignon Blanc,3,5
+US,90,15,America,Red Blend,5,4
+US,90,15,America,Red Blend,5,4
+Spain,87,15,Central Spain,Red Blend,4,4
+Spain,90,15,Central Spain,Red Blend,4,4
+US,90,15,America,Red Blend,5,4
+US,90,15,America,Red Blend,5,4
+US,87,15,America,Red Blend,5,4
+Spain,83,15,Central Spain,Sauvignon Blanc,4,5
+Spain,88,15,Central Spain,Red Blend,4,4
+Mexico,82,15,Valle de Guadalupe,Chardonnay,3,1
+Spain,81,15,Central Spain,Red Blend,4,4
+US,87,15,America,Red Blend,5,4
+US,86,14,America,Red Blend,5,4
+Spain,85,14,Central Spain,Red Blend,4,4
+Spain,86,14,Central Spain,Red Blend,4,4
+Mexico,84,14,Valle de Guadalupe,Chardonnay,3,1
+Spain,81,13,Central Spain,Sauvignon Blanc,4,5
+Mexico,86,13,Valle de Guadalupe,Sauvignon Blanc,3,5
+Mexico,83,13,Valle de Guadalupe,Chardonnay,3,1
+US,88,13,America,Sauvignon Blanc,5,5
+Mexico,82,13,Valle de Guadalupe,Sauvignon Blanc,3,5
+Mexico,84,13,Valle de Guadalupe,Sauvignon Blanc,3,5
+Spain,85,13,Central Spain,Red Blend,4,4
+US,88,13,America,Sauvignon Blanc,5,5
+India,89,12,Nashik,Sauvignon Blanc,2,5
+US,86,12,America,Sauvignon Blanc,5,5
+US,86,12,America,Merlot,5,2
+India,90,12,Nashik,Sauvignon Blanc,2,5
+US,84,12,America,Red Blend,5,4
+Spain,83,12,Central Spain,Sauvignon Blanc,4,5
+Spain,82,12,Central Spain,Red Blend,4,4
+Spain,86,12,Central Spain,Red Blend,4,4
+Spain,83,11,Central Spain,Sauvignon Blanc,4,5
+US,86,11,America,Merlot,5,2
+Spain,84,11,Central Spain,Chardonnay,4,1
+US,85,11,America,Red Blend,5,4
+US,85,11,America,Merlot,5,2
+Mexico,81,11,Valle de Guadalupe,Chardonnay,3,1
+Mexico,83,11,Valle de Guadalupe,Sauvignon Blanc,3,5
+Spain,84,10,Central Spain,Red Blend,4,4
+Spain,82,10,Central Spain,Sauvignon Blanc,4,5
+Spain,81,10,Central Spain,Sauvignon Blanc,4,5
+Spain,85,10,Central Spain,Sauvignon Blanc,4,5
+US,88,10,America,Red Blend,5,4
+Spain,83,10,Central Spain,Merlot,4,2
+Spain,85,10,Central Spain,Red Blend,4,4
+Spain,84,10,Central Spain,Chardonnay,4,1
+Mexico,84,10,Valle de Guadalupe,Chardonnay,3,1
+US,86,10,America,Chardonnay,5,1
+Spain,80,10,Central Spain,Sauvignon Blanc,4,5
+Spain,82,10,Central Spain,Merlot,4,2
+US,85,10,America,Red Blend,5,4
+Spain,86,10,Central Spain,Red Blend,4,4
+Spain,84,10,Central Spain,Chardonnay,4,1
+US,87,10,America,Sauvignon Blanc,5,5
+Spain,84,10,Central Spain,Red Blend,4,4
+Spain,82,10,Central Spain,Sauvignon Blanc,4,5
+US,88,10,America,Red Blend,5,4
+Spain,86,10,Central Spain,Red Blend,4,4
+US,87,10,America,Merlot,5,2
+Spain,84,9,Central Spain,Red Blend,4,4
+Spain,80,9,Central Spain,Merlot,4,2
+Spain,84,9,Central Spain,Sauvignon Blanc,4,5
+Spain,87,9,Central Spain,Red Blend,4,4
+Spain,82,9,Central Spain,Chardonnay,4,1
+Spain,80,9,Central Spain,Chardonnay,4,1
+US,85,9,America,Chardonnay,5,1
+Spain,85,8,Central Spain,Red Blend,4,4
+Spain,84,8,Central Spain,Sauvignon Blanc,4,5
+Spain,80,7,Central Spain,Chardonnay,4,1
+Spain,86,7,Central Spain,Red Blend,4,4
+US,85,6,America,Chardonnay,5,1

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23000000%22></rect><path fill=%22%23fff%22 d=%22M56.72 65.03L43.36 65.03L44.64 61.87L55.45 61.87L56.72 65.03ZM59.27 71.36L40.90 71.36L42.13 68.19L57.91 68.19L59.27 71.36ZM61.73 77.69L38.44 77.69L39.67 74.52L60.42 74.52L61.73 77.69ZM39.80 17.88L12.73 86.39L9.31 86.39L38.09 13.61L41.52 13.61L70.26 86.39L66.88 86.39L39.80 17.88ZM16.12 86.39L40.20 25.39L42.00 29.43L19.50 86.39L16.12 86.39ZM22.93 86.39L43.72 33.74L45.39 38.09L26.36 86.39L22.93 86.39ZM29.74 86.39L47.06 42.44L48.73 46.88L33.13 86.39L29.74 86.39ZM61.91 13.61L90.69 86.39L87.27 86.39L58.53 13.61L61.91 13.61ZM51.71 13.61L55.10 13.61L83.88 86.39L80.50 86.39L51.71 13.61ZM44.90 13.61L48.29 13.61L77.07 86.39L73.64 86.39L44.90 13.61Z%22></path></svg>" />
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <title>Wine Quality Correlation Analysis by Anshul Kumar Singh</title>
+  <script src="js/d3.min.js"></script>
+  <script src="js/d3-annotation.min.js"></script>
+  <style>
+    .tooltip {
+      opacity: 0;
+      background-color: black;
+      color: white;
+      padding: 10px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container my-5">
+    <div>
+      <h2>Wine Quality & Attribute Correlation Analysis</h2>
+      <p class="mt-4">
+        This Project is for CS 416. It tries to correlate Wine Quality to different Wine Attributes and their
+        interdependencies.
+      </p>
+      <p>
+        The visualization is characterized by three main attributes: (1) Price, (2) Country, (3) Variety.
+        The visualization follows Interactive Slideshow technique and also utilizes characteristics like
+        (1) Color Coding, (2) Annotations, (3) Parameters and
+        (4) Triggers to better visualize and navigate through the dashboard.
+      </p>
+      <b>Description</b>
+      <p>
+        This Dashboard has been created based on Winery Kaggle dataset. Source files on <a
+          href="https://github.com/anshulDevelops/anshulDevelops.github.io">GitHub</a>.
+      </p>
+    </div>
+    <hr class="my-4">
+    <div class="row">
+      <div class="col-12 col-md-2">
+        <h5>Wine Attributes</h5>
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="price" data-bs-toggle="list" href="#list-price"
+            role="tab" aria-controls="list-price">Price</a>
+          <a class="list-group-item list-group-item-action" id="country" data-bs-toggle="list"
+            href="#list-country" role="tab" aria-controls="list-country">Country</a>
+          <a class="list-group-item list-group-item-action" id="variety" data-bs-toggle="list" href="#list-variety"
+            role="tab" aria-controls="list-variety">Variety</a>
+        </div>
+        <div class="mt-5">
+          <h6>Color code Results by:</h6>
+          <select class="form-select" id="colorSelect">
+            <option selected value="variety">Variety</option>
+            <option value="country">Country</option>
+            <option value="province">Province</option>
+          </select>
+        </div>
+        <div class="d-flex flex-column justify-content-start mt-3" id="selectPills">
+             <div><span class="badge rounded-pill text-dark" style="background-color: #ffff00;">Sauvignon Blanc</span></div>
+             <div><span class="badge rounded-pill" style="background-color: #0000ff;">Chardonnay</span></div>
+             <div><span class="badge rounded-pill" style="background-color: #008000;">Red Blend</span></div>
+             <div><span class="badge rounded-pill" style="background-color: #ff0000;">Merlot</span></div>
+             <div><span class="badge rounded-pill" style="background-color: #000000;">Pinot Noir</span></div>
+        </div>
+      </div>  
+      <div class="col-12 col-md-10">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-price" role="tabpanel" aria-labelledby="list-price-list">
+            <div class="d-flex justify-content-end mt-2 mb-5">
+              <button type="button" class="btn btn-outline-primary" onclick="countryTab.show();">Country
+                →</button>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="d-flex justify-content-center">
+                  <h4>Quality v. Price</h4>
+                </div>
+                <div id="chart-price"></div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="list-country" role="tabpanel" aria-labelledby="list-country-list">
+            <div class="d-flex justify-content-end mt-2 mb-5">
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-primary" onclick="priceTab.show();">← Price</button>
+                <button type="button" class="btn btn-outline-primary" onclick="varietyTab.show();">Variety →</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="d-flex justify-content-center">
+                  <h4>Quality v. Country</h4>
+                </div>
+                <div id="chart-country"></div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="list-variety" role="tabpanel" aria-labelledby="list-variety-list">
+            <div class="d-flex justify-content-end mt-2 mb-5">
+              <button type="button" class="btn btn-outline-primary" onclick="countryTab.show();">←
+                Country</button>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="d-flex justify-content-center">
+                  <h4>Quality v. Variety</h4>
+                </div>
+                <div id="chart-variety"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
